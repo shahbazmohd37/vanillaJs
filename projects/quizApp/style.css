@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-size: 20px;
+  color: black;
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  background: rgb(189, 187, 187);
+  width: 100%;
+}
+.card {
+  padding: 10px;
+    background: white;
+    width: 80%;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"></meta>
+    <meta charset="UTF-8"></meta>
+    <title>Creative component</title>
+    <link rel="stylesheet" href="style.css" ></link>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="filter">
+          Filter By
+          <div class="colorList"></div>
+          <div class="searchCon">
+            <label >
+              Title/Subtitle
+              <input id="search" />
+            </label>
+          </div>
+        </div>
+        <div class="progressBarCon"></div>
+        <button id="addCreativeBtn" >+ Add Creative</button>
+        <div class="creativesList"></div>
+      </div>
+      <div class="drawer">
+        <h3>Creative Creation
+          <span class="closeIcon">X</span>
+        </h3>
+       <form id="form">
+        <label>
+          title
+          <input type="text" placeholder="This is title" id="inputTitle" required/>
+        </label>
+        <label>
+          subtitle
+          <input type="text" placeholder="This is subtitle" id="inputSubtitle" required/>
+        </label>
+        <div id="drawerColor"></div>
+        <button id="submitCreative">Done</button>
+       </form>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

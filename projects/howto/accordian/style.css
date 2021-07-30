@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 70%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+h1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 71%;
+}
+
+.hideData {
+    display: none;
+}
+
+.content {
+    padding: 10px;
+    height: 100px;
+    background: grey;
+    display: none;
+    width: 70%;
+}
+
+.show {
+    display: block;
+}
+
+.progressBar {
+    width: 800px;
+    height: 30px;
+    border: 1px solid;
+}
+
+.myProgress {
+    position: absolute;
+    height: 30px;
+    background: green;
+    width: 10%;
+}
+
+.range {
+    position: relative;
+    width: 420px;
+}
+
+#myRange {
+    height: 4px;
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    width: 420px;
+}
+
+li {
+    width: 16.66%;
+    margin: auto;
+    display: flex;
+}
+
+li::before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    background: rgb(0, 0, 0, 0.6);
+    color: white;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s;
+    width: 120px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+/* .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+} */
+
+.tooltip .showTooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.top {
+    bottom: 100%;
+}
+
+.left {
+    left: -100%;
+    transform: translate(0);
+}
+
+.right {
+    left: 100%;
+    transform: translate(0);
+}
+
+.bottom {
+    top: 100%;
+}

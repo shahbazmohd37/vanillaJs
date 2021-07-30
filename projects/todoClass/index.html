@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>To DO app</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section>
+        <header>TO DO App</header>
+        <main>
+            <form>
+                <input type="text" placeholder="Enter the Task" id="input" />
+                <button type="submit">Add</button>
+            </form>
+            <div class="taskCon">
+                <div class="tabs">
+                    <button class="selected" id="all">All</button>
+                    <button id="active">Active</button>
+                    <button id="completed">Completed</button>
+                </div>
+                <div class="tasks">
+                    <ul class="all show"></ul>
+                    <ul class="active"></ul>
+                    <ul class="completed"></ul>
+                </div>
+            </div>
+        </main>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

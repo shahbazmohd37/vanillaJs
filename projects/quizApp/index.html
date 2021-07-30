@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script> -->
+  </head>
+  <body>
+    <div class="home row">
+      <div class="card">
+        <span id="question">question</span>
+        <img id="img" width="100px" height="100px"/>
+        <ul>
+          <li>
+            <input type="radio" id="a" name="answers" value="a" class="answer"/>
+            <label for="question" id="a_text">answers</label>
+          </li>
+          <li>
+            <input type="radio" id="b" name="answers" value="b" class="answer"/>
+            <label for="question" id="b_text">answers</label>
+          </li>
+          <li>
+            <input type="radio" id="c" name="answers" value="c" class="answer"/>
+            <label for="question" id="c_text">answers</label>
+          </li>
+          <li>
+            <input type="radio" id="d" name="answers" value="d" class="answer"/>
+            <label for="question" id="d_text">answers</label>
+          </li>
+        </ul>
+        <div>
+          <button onclick="submit()">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js" defer type="module"></script>
+  <script src="./config.js" type="module"></script>
+  <!-- <script src="./script.js" defer ></script> -->
+  <!-- <script src="./config.js" ></script> -->
+  </script>
+</html>

@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.card {
+    border: 1px solid;
+    box-shadow: 0 3px 5px 2px;
+}
+
+header {
+    background: grey;
+    padding: 10px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+ul li img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+}
+
+b {
+    color: blue;
+    font-size: 18px;
+}
+
+.intro {
+    margin-left: 10px;
+    font-size: 12px;
+    color: grey;
+}
+
+.into span {
+    font-size: 10px;
+    color: black;
+}
+
+.intro span .icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+i {
+    font-size: 20px;
+    width: 10px;
+    height: 10px;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: auto;
+}
+
+.intro>span {
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68">
+    <g fill="none" fill-rule="evenodd">
+        <g stroke="#7F8386" stroke-width="4">
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g transform="translate(-154 -263) translate(20 185) translate(53 80) translate(83)">
+                                <circle cx="32" cy="32" r="32" fill="#7F8386"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M40.551 23L24 40.38" stroke="#FFF"/>
+                                <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" d="M40.551 23L24 40.38" transform="matrix(-1 0 0 1 64.551 0)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

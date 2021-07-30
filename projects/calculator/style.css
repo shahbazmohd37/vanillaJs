@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+width: 100%;
+min-height: 100vh;
+background-color: white;
+font-size: 20px;
+color: black;
+font-weight: 500;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#equation {
+  width: 80%;
+    height: 30px;
+    border: 1px solid black;
+}
+#output {
+  width: 80%;
+  height: 30px;
+  border: 1px solid black;
+  margin: 30px auto;
+}
+
+#numberPanel > .row > div {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+}
+
+#operation > div {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black
+}

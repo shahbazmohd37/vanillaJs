@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8"></meta>
+    <meta charset="UTF-8"></meta>
+    <title>calendar</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+
+<body>
+    <div class="container">
+        calendar
+        <div class="calendar">
+            <aside>
+                <div class="currentDay"></div>
+                <div class="currentDate"></div>
+            </aside>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th><button id="prev"><<</button></th>
+                        <th class="selectedMonthYear"></th>
+                        <th><button id="next">>></button></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>S</td>
+                        <td>M</td>
+                        <td>T</td>
+                        <td>W</td>
+                        <td>T</td>
+                        <td>F</td>
+                        <td>S</td>
+                    </tr>
+                </thead>
+                <tbody id="calendar">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
